@@ -1,0 +1,7 @@
+.env
+.env.local
+reference/
+vendor/claude-code-openai-wrapper/.venv/
+vendor/claude-code-openai-wrapper/.env
+__pycache__/
+*.pyc
