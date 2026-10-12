@@ -1,6 +1,6 @@
 # claude-openai-server — deployment
 
-Live service on `http://127.0.0.1:8910` is **RichardAtCT/claude-code-openai-wrapper**
+Live service on `http://192.168.1.201:8910` (LAN; also `http://127.0.0.1:8910` from the host) is **RichardAtCT/claude-code-openai-wrapper**
 (chosen over our v1 on 2026-10-12 because it is more complete: built-in rate
 limiting, session store, tool manager, MCP, OpenAPI docs, subscription-CLI auth
 out of the box).
@@ -15,9 +15,9 @@ fallback / reference and is NOT running.
 | Upstream | `github.com/RichardAtCT/claude-code-openai-wrapper` |
 | Pinned commit | `aaad0b96a4cd63833003ac340bbcc37f89418acc` (clone in `vendor/claude-code-openai-wrapper`) |
 | Install | `python3 -m venv .venv && .venv/bin/pip install -e .` (poetry deps) |
-| Run | `.venv/bin/python -m uvicorn src.main:app --host 127.0.0.1 --port 8910` |
+| Run | `./start.sh` (env-driven: `.env` host 0.0.0.0, port 8910) |
 | Claude auth | `claude_cli` — reuses the local `claude` CLI's subscription OAuth (`~/.claude/.credentials.json`). No extra API key needed. |
-| Bind | `127.0.0.1:8910` (localhost only) |
+| Bind | `0.0.0.0:8910` (LAN-reachable since 2026-10-12; host LAN IP `192.168.1.201`). Bearer-token required on `/v1/*` — the token is the only credential. ufw inactive; private LAN only. |
 | Request auth | Bearer token, env `API_KEY` (in `vendor/claude-code-openai-wrapper/.env`, chmod 600). No key set = open (we set one). |
 | Rate limit | Built-in, enabled. chat `10/minute`, session `15/minute`, health `30/minute` (per IP). Tunable via `RATE_LIMIT_*_PER_MINUTE` env vars. |
 
@@ -25,7 +25,7 @@ fallback / reference and is NOT running.
 
 ```
 CLAUDE_AUTH_METHOD=cli            # use local CLI subscription auth
-CLAUDE_WRAPPER_HOST=127.0.0.1    # bind localhost
+CLAUDE_WRAPPER_HOST=0.0.0.0      # LAN-reachable (bearer-gated)
 PORT=8910
 API_KEY=<48 hex chars, secret>    # required Bearer token for /v1/*
 RATE_LIMIT_ENABLED=true
@@ -56,14 +56,14 @@ NEVER commit or paste the key.
 OpenAI python SDK:
 ```python
 from openai import OpenAI
-client = OpenAI(api_key="<API_KEY from .env>", base_url="http://127.0.0.1:8910/v1")
+client = OpenAI(api_key="<API_KEY from .env>", base_url="http://192.168.1.201:8910/v1")
 r = client.chat.completions.create(model="haiku",
     messages=[{"role":"user","content":"hi"}],
     extra_body={"session_id": "my-conv"})   # optional continuity
 ```
 curl:
 ```bash
-curl http://127.0.0.1:8910/v1/chat/completions \
+curl http://192.168.1.201:8910/v1/chat/completions \
   -H "Authorization: Bearer <API_KEY>" -H "Content-Type: application/json" \
   -d '{"model":"haiku","session_id":"my-conv","messages":[{"role":"user","content":"hi"}]}'
 ```
