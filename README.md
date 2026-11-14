@@ -1,3 +1,11 @@
+<p align="center"><b>Turns the local Claude Code CLI into an OpenAI-compatible server.</b></p>
+
+<p align="center">
+<a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-blue"></a>
+</p>
+
+---
+
 # claude-openai-server
 
 Turns the locally installed **Claude Code CLI** into a tiny **OpenAI-compatible
