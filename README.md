@@ -96,6 +96,13 @@ Any OpenAI-compatible client can call Claude Code, including its agent tools, th
 <a href="https://github.com/Hydrocarbon-Forge/mod-factory"><img alt="more: mod-factory" src="https://img.shields.io/badge/repo-mod--factory-24292F?logo=github&logoColor=white"></a>
 </p>
 
+<p align="center">
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/commits"><img alt="commits list" src="https://img.shields.io/badge/commits-history-F05032?logo=github&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/branches"><img alt="branches" src="https://img.shields.io/badge/browse-branches-24292F?logo=github&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/tags"><img alt="tags" src="https://img.shields.io/badge/browse-tags-24292F?logo=github&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/issues"><img alt="issues list" src="https://img.shields.io/badge/browse-issues-D73A49?logo=github&logoColor=white"></a>
+</p>
+
 ## What it is
 
 `claude_openai.py` is a single-file HTTP server that wraps the Claude Code CLI in headless mode (`claude -p`). Clients such as the OpenAI Python SDK, opencode, Continue, or curl send standard OpenAI chat requests, and the server runs them through the local `claude` CLI.
