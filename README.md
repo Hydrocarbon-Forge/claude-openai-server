@@ -3,6 +3,24 @@
 <p align="center"><b>Turns the local Claude Code CLI into an OpenAI-compatible server.</b></p>
 
 <p align="center">
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/Hydrocarbon-Forge/claude-openai-server?style=social"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/forks"><img alt="forks" src="https://img.shields.io/github/forks/Hydrocarbon-Forge/claude-openai-server?style=social"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/watchers"><img alt="watchers" src="https://img.shields.io/github/watchers/Hydrocarbon-Forge/claude-openai-server?style=social"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/issues"><img alt="open issues" src="https://img.shields.io/github/issues/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/pulls"><img alt="open pull requests" src="https://img.shields.io/github/issues-pr/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/commits"><img alt="last commit" src="https://img.shields.io/github/last-commit/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/commits"><img alt="commits per year" src="https://img.shields.io/github/commit-activity/Hydrocarbon-Forge/claude-openai-server/y"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/graphs/contributors"><img alt="contributors" src="https://img.shields.io/github/contributors/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="repo size" src="https://img.shields.io/github/repo-size/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="code size" src="https://img.shields.io/github/languages/code-size/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="top language" src="https://img.shields.io/github/languages/top/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="language count" src="https://img.shields.io/github/languages/count/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/releases"><img alt="latest release" src="https://img.shields.io/github/v/Hydrocarbon-Forge/claude-openai-server?include_prereleases"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/github/license/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/releases"><img alt="release downloads" src="https://img.shields.io/github/downloads/Hydrocarbon-Forge/claude-openai-server/total"></a>
+</p>
+
+<p align="center">
 Any OpenAI-compatible client can call Claude Code, including its agent tools, through <code>/v1/chat/completions</code>.
 </p>
 
