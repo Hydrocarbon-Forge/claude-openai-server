@@ -3,6 +3,31 @@
 <p align="center"><b>Turns the local Claude Code CLI into an OpenAI-compatible server.</b></p>
 
 <p align="center">
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/issues?q=is%3Aclosed"><img alt="closed issues" src="https://img.shields.io/github/issues-closed/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/pulls?q=is%3Apr+is%3Aclosed"><img alt="closed pull requests" src="https://img.shields.io/github/issues-pr-closed/Hydrocarbon-Forge/claude-openai-server"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server#readme"><img alt="README" src="https://img.shields.io/badge/README-present-2ea44f?logo=readme&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/search?l=python"><img alt="language: Python" src="https://img.shields.io/badge/Python-language-3776AB?logo=python&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/search?l=shell"><img alt="language: Shell" src="https://img.shields.io/badge/Shell-language-4EAA25?logo=gnubash&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="contains Markdown" src="https://img.shields.io/badge/Markdown-files-000000?logo=markdown&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="contains gitignore" src="https://img.shields.io/badge/gitignore-files-F05032?logo=git&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="contains Shell_script" src="https://img.shields.io/badge/Shell__script-files-4EAA25?logo=gnubash&logoColor=white"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="contains Python" src="https://img.shields.io/badge/Python-files-3776AB?logo=python&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/topics/chat-completions"><img alt="topic: chat-completions" src="https://img.shields.io/badge/chat--completions-topic-0969da"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/topics/claude"><img alt="topic: claude" src="https://img.shields.io/badge/claude-topic-0969da"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/topics/claude-code"><img alt="topic: claude-code" src="https://img.shields.io/badge/claude--code-topic-0969da"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/topics/openai-api"><img alt="topic: openai-api" src="https://img.shields.io/badge/openai--api-topic-0969da"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/topics/openai-compatible"><img alt="topic: openai-compatible" src="https://img.shields.io/badge/openai--compatible-topic-0969da"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/topics/python"><img alt="topic: python" src="https://img.shields.io/badge/python-topic-0969da"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/topics/server-sent-events"><img alt="topic: server-sent-events" src="https://img.shields.io/badge/server--sent--events-topic-0969da"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="Git" src="https://img.shields.io/badge/Git-version_control-F05032?logo=git&logoColor=white"></a>
+<a href="https://github.com/Hydrocarbon-Forge/claude-openai-server"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-hosted-181717?logo=github&logoColor=white"></a>
+</p>
+
+<p align="center">
 <a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/Hydrocarbon-Forge/claude-openai-server?style=social"></a>
 <a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/forks"><img alt="forks" src="https://img.shields.io/github/forks/Hydrocarbon-Forge/claude-openai-server?style=social"></a>
 <a href="https://github.com/Hydrocarbon-Forge/claude-openai-server/watchers"><img alt="watchers" src="https://img.shields.io/github/watchers/Hydrocarbon-Forge/claude-openai-server?style=social"></a>
